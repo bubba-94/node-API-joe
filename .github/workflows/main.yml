@@ -19,6 +19,3 @@ jobs:
           context: .
           push: true
           tags: docker.io/moodin.git${{ secrets.DOCKER_HUB_MOODIN }}
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
