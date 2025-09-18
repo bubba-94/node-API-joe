@@ -21,4 +21,4 @@ jobs:
         with: 
           context: .
           push: true
-          tags: docker.io/bubba-94.git${{ secrets.DOCKER_HUB_MOODIN }}
+          tags: docker.io/moodin.git${{ secrets.DOCKER_HUB_MOODIN }}
