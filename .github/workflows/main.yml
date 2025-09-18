@@ -21,4 +21,4 @@ jobs:
         with: 
           context: .
           push: true
-          tags: docker.io/node-API-joe.git${{ secrets.DOCKER_HUB_USERNAME }}
+          tags: docker.io/node-api-joe.git${{ secrets.DOCKER_HUB_USERNAME }}
